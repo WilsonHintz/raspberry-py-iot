@@ -6,7 +6,7 @@ variable "resource_group_name" {
 variable "resource_group_location" {
   description = "The location of the Azure resource group."
   type        = string
-  default     = "eastus2"
+  default     = "brazilsoutheast"
 }
 
 variable "service_principal_secret" {
