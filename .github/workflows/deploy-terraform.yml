@@ -11,7 +11,7 @@ jobs:
   terraform-plan:
     name: Terraform Plan
     runs-on: ubuntu-latest
-    environment: demo
+    environment: cellar
 
     defaults:
       run:
@@ -84,7 +84,7 @@ jobs:
   terraform-apply:
     name: Terraform Apply
     runs-on: ubuntu-latest
-    environment: demo
+    environment: cellar
     needs: terraform-plan
 
     defaults:
