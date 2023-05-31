@@ -16,7 +16,7 @@ jobs:
   deploy:
     name: Deploy IoT Edge Device
     runs-on: ubuntu-latest
-    environment: demo
+    environment: cellar
     defaults:
       run:
         shell: bash
